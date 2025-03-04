@@ -124,7 +124,7 @@ def main():
         if choice == "HOME":
                 st.markdown("<h1 style='text-align: center;'>HOMEPAGE</h1>", unsafe_allow_html=True)
                 image = Image.open(r"cc.jpg")
-                st.image(image, caption='',use_column_width=True)
+                st.image(image, caption='',use_container_width=True)
                 st.subheader(" ")
                 time.sleep(3)
                 st.warning("Goto Menu Section To Login !")
